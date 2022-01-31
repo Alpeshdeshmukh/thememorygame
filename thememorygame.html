@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="cs1.css">
+</head>
+<body> 
+    <div id="ph1">
+        <h1>The Memory Game</h1>
+        <label>Let's see How brilliant Your intellect is... </label>
+        <br>
+        <br>
+        <label>How do you remember a given "Word" or "Sentence"..?</label>
+        <br>
+        <br>
+        <br>
+        <div id="pb1">
+            <button onclick="fun1()">Let's  Start</button>
+        </div>
+
+    </div>
+    
+    <div id="pb2a">
+        <h1>Select Game Mode</h1>
+    
+ 
+        <button id="b1" onclick="fun2()">Easy</button>
+        <button id="b2" onclick="fun3()">Medium</button>
+        <button id="b3" onclick="fun4()">Hard</button>
+
+    </div>
+    <div id="ph2">
+        <h2>Remeber Words Carefully as Sequence</h2>
+        <button onclick="go()">Lets Go...!</button>
+        <h1 id="inn1"></h1>
+        
+        <div id="in1">
+          
+            <p><span id="seq"></span></p>
+    <input type="text" id="easytext">
+    <button onclick="easy1()">Sumbit</button>
+    <h2 id="easyans"></h2>
+    <h3 id="mark"></h3>
+    </div>
+    </div>
+
+
+    <div id="ph3">
+        <h2>Remeber short lines Carefully as Sequence</h2>
+      
+        <button onclick="go1()">Lets Go...!</button>
+        <h1 id="inn2"></h1>
+
+        <div id="in2">
+        <p><span id="seq1"></span></p>
+
+    <textarea type="text" id="med"></textarea>
+    <input type="button" value="Sumbit" onclick="med1()">
+    <h3 id="mark1"></h3>
+
+    <button id="hint1" onclick="hint()">Hint</button>
+    <div id="hd1"><p id="hintpara1"></p></div>
+    <br>
+    </div>
+
+    </div>
+
+    <div id="ph4">
+        <h2>Remeber short Paragragh Carefully as Sequence</h2>
+
+        <button onclick="go2()">Lets Go...!</button>
+        <h1 id="inn3"></h1>
+
+        <div id="in3">
+        <p><span id="seq3"></span></p>
+
+        <textarea type="text" id="hard"></textarea>
+        <input type="button" value="Sumbit" onclick="hard1()">
+        <h3 id="mark2"></h3>
+
+
+
+        
+        <button id="hint2" onclick="hint2()">Hint</button>
+        <div id="hd2"><p id="hintpara2"></p></div>
+        <br>
+
+        </div>
+
+        <script src="js1.js"></script>
+</body>
+</html>
