@@ -1,0 +1,94 @@
+#pb2,#ph2,#ph3,#ph4,#pb2a,#in1,#in2,#in3,#hint1,#hint2{
+    display: none;
+
+}
+
+#hint1,#hint2{
+    float:left;
+}
+#hd1,#hd2{
+    float:right;
+}
+
+
+#ph1{
+    display: block;
+    background:linear-gradient(yellow,red);
+    text-align: center;
+}
+h1{
+    font-size: 100px;
+    text-shadow: 5px;
+}
+label{
+    font-size: large;
+    text-shadow: 25px;
+
+
+}
+#pb1{
+
+    height: 200px;
+    align-self: auto;
+}
+#pb1 button:hover{
+    background-color: brown;
+
+}
+#pb1 button{
+    border: none;
+    background-color: blueviolet;
+    color:black;
+    height: 100px;
+    width: 250px;
+    font-size: 50px;
+    border-radius: 50px;
+    align-self: center;
+
+}
+#b1,#b2,#b3{
+    border: none;
+    background-color: yellowgreen;
+    color:black;
+    height: 100px;
+    width: 250px;
+    font-size: 50px;
+    border-radius: 50px;
+    align-self: center;
+    
+}
+#b1:hover{
+    background-color:brown;
+    color:red;
+}#b2:hover{
+    background-color:brown;
+    color:red;
+}#b3:hover{
+    background-color:brown;
+    color:red;
+}
+#pb2a{
+    background:linear-gradient(yellow,red);
+    text-align: center;
+
+}
+#ph2{
+    background:linear-gradient(yellow,red);
+    text-align: center;
+    height: 400px;
+
+}
+
+#ph3{
+    background:linear-gradient(yellow,red);
+    text-align: center;
+    height: 400px;
+
+}
+
+#ph4{
+    background:linear-gradient(yellow,red);
+    text-align: center;
+    height: 400px;
+
+}
